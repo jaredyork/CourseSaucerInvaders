@@ -9,6 +9,7 @@ class Entity extends Phaser.GameObjects.Sprite {
 class Player extends Entity {
 	constructor(scene, x, y) {
 		super(scene, x, y, "sprPlayer");
+		this.setScale(2);
 	}
 }
 
